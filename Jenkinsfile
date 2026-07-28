@@ -8,12 +8,12 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                git branch: 'main',
-                    url: 'https://github.com/ohadd83/nodejs-app.git'
-            }
-        }
+//        stage('Checkout') {
+  //          steps {
+    //            git branch: 'main',
+      //              url: 'https://github.com/ohadd83/nodejs-app.git'
+        //    }
+      //  }
 
         stage('Install Dependencies') {
             steps {
